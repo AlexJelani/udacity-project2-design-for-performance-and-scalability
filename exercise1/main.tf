@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-1"  # Change to your preferred region
+  region = "us-east-1"  # Change to your preferred region
 }
 
 resource "aws_s3_bucket" "exercise_bucket" {
