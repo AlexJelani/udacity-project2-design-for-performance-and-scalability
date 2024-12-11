@@ -1,0 +1,17 @@
+{
+    "name": "AWS Terraform Development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {},
+        "ghcr.io/devcontainers/features/aws-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform",
+                "amazonwebservices.aws-toolkit-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": "terraform --version && aws --version"
+}
