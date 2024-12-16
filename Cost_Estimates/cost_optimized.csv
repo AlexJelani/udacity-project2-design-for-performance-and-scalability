@@ -1,0 +1,19 @@
+Configuration,Service,Quantity,Unit Cost,Monthly Cost
+Cost-Optimized,t3.micro web servers,2,8,16
+Cost-Optimized,t3.large app servers,2,60,120
+Cost-Optimized,RDS Multi-AZ,1,2500,2500
+Cost-Optimized,NAT Gateway,1,32,32
+Cost-Optimized,Application Load Balancer,1,300,300
+Cost-Optimized,S3 + CloudFront (50TB),1,1500,1500
+Cost-Optimized,Data Transfer,1,1500,1500
+Cost-Optimized,Total,,,5968
+,,,,
+"Rationale for cost optimization: The infrastructure costs were reduced by switching to the newer T3 instance family which offers better price-performance ratio compared to T2 and M4 instances. The number of web servers was reduced from 4 to 2 and configured with Auto Scaling to scale based on demand rather than running at full capacity constantly. Additionally, implementing AWS Savings Plans for compute resources provides significant cost savings over on-demand pricing.",,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

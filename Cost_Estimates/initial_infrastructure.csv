@@ -1,0 +1,9 @@
+Configuration,Service,Quantity,Unit Cost,Monthly Cost
+Initial Infrastructure,t2.micro web servers,4,8.5,34
+Initial Infrastructure,m4.large app servers,2,80,160
+Initial Infrastructure,RDS Multi-AZ with read replica,1,3500,3500
+Initial Infrastructure,NAT Gateway,1,32,32
+Initial Infrastructure,Application Load Balancers,2,300,600
+Initial Infrastructure,S3 + CloudFront (100TB),1,3000,3000
+Initial Infrastructure,Data Transfer,1,2000,2000
+Initial Infrastructure,Total,,,9326

@@ -1,0 +1,24 @@
+Configuration,Service,Quantity,Unit Cost,Monthly Cost
+High-Performance,c5.xlarge web servers,6,150,900
+High-Performance,r5.xlarge app servers,4,300,1200
+High-Performance,RDS Multi-AZ with multiple replicas,1,7000,7000
+High-Performance,NAT Gateways,2,32,64
+High-Performance,Application Load Balancers,4,300,1200
+High-Performance,S3 + CloudFront (200TB),1,6000,6000
+High-Performance,ElastiCache clusters,1,1500,1500
+High-Performance,Global Accelerator,1,1000,1000
+High-Performance,Data Transfer,1,1000,1000
+High-Performance,Total,,,19864
+,,,,
+"Rationale for performance optimization: The infrastructure was enhanced by upgrading to compute-optimized C5 instances for web servers to handle higher concurrent requests and memory-optimized R5 instances for application servers to improve application performance. The number of instances was increased in both tiers to provide better redundancy and handle higher load. Additional improvements include implementing read replicas for the database across multiple AZs, adding ElastiCache for session management, and using Global Accelerator for improved global traffic routing.",,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
