@@ -11,13 +11,3 @@ resource "aws_instance" "udacity_t2" {
     Name = "Udacity T2"
   }
 }
-
-resource "aws_instance" "udacity_m4" {
-  count         = 2
-  ami           = "ami-0e731c8a588258d0d"
-  instance_type = "m4.large"
-  
-  tags = {
-    Name = "Udacity M4"
-  }
-}
